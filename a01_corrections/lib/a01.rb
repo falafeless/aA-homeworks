@@ -3,11 +3,10 @@ def fibs_rec(count)
   # fibs_arr = [0, 1]
   # return [0] if count == 1
   # return fibs_arr if count == 2
-
-  # until fibs_arr.length == count
-  #   fibs_arr << fibs_rec(count - 1).last + fibs_rec(count - 2).last
-  # end
-  # fibs_arr
+  #
+  # # p fibs_rec(count - 1)
+  # # p fibs_rec(count - 2)
+  # fibs_arr << fibs_rec(count - 1).last + fibs_rec(count - 2).last
 
   # ^ Previous code: similar, but tried to take the last of
   #   two recursions. Could maybe work, but couldn't resolve the details.
